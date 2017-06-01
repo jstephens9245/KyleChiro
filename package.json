@@ -1,0 +1,48 @@
+{
+  "name": "KyleChiro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jstephens9245/KyleChiro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jstephens9245/KyleChiro/issues"
+  },
+  "homepage": "https://github.com/jstephens9245/KyleChiro",
+  "dependencies": {
+    "autoprefixer": "^7.1.1",
+    "babel-plugin-module-resolver": "^2.7.1",
+    "babel-plugin-wrap-in-js": "^1.1.1",
+    "css-loader": "^0.28.4",
+    "glob": "^7.1.2",
+    "next": "beta",
+    "node-sass": "^4.5.3",
+    "postcss-easy-import": "^2.0.0",
+    "postcss-loader": "^2.0.5",
+    "raw-loader": "^0.5.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "sass-loader": "^6.0.5",
+    "style-loader": "^0.18.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint": "^3.7.1",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-import-resolver-babel-module": "^3.0.0",
+    "eslint-plugin-babel": "^3.3.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-react": "^6.9.0"
+  }
+}
