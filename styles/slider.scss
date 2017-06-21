@@ -1,0 +1,29 @@
+.slider-container {
+  margin: 0 auto;
+  width: 100%;
+  color: #333;
+}
+.slick-arrow {
+  display: none !important;
+}
+.slide {
+  height: 400px;
+}
+.slide:nth-of-type(2) {
+  background: lightblue;
+}
+.slide:nth-of-type(3) {
+  background: green;
+}
+.slide:nth-of-type(4) {
+  background: yellow;
+}
+.slide:nth-of-type(5) {
+  background: purple;
+}
+.slide:nth-of-type(6) {
+  background: grey;
+}
+.slide:nth-of-type(7) {
+  background: pink;
+}

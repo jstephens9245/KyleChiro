@@ -28,7 +28,7 @@ const Header = () => (
 
     <div className="fullscreen-layout">
 
-      <div className="page-header-middle" >
+      <div className="page-header" >
         <Link href="/Services">
           <a className="link-style" >Home</a>
         </Link>
