@@ -29,14 +29,18 @@ const Header = () => (
     <div className="fullscreen-layout">
 
       <div className="page-header" >
-        <Link href="/Services">
-          <a className="link-style" >Home</a>
+        <Link href="/">
+          {/* <a className="link-style" >Home</a> */}
+          <img className="logo" src="../static/KVChiroLogo.jpg" />
         </Link>
-        <Link href="/FAQ">
-          <a className="link-style" >FAQs</a>
-        </Link>
-        <Link href="/About">
+        <Link href="/about">
           <a className="link-style" >About</a>
+        </Link>
+        <Link href="https://www.google.com/maps/@42.2007594,-85.6829545,19z">
+          <a target="_blank" className="link-style" >Find Us</a>
+        </Link>
+        <Link href="/">
+          <a className="link-style" >Home</a>
         </Link>
       </div>
     </div>

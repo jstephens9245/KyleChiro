@@ -2,6 +2,7 @@
   margin: 1em 0 1em 0;
   padding-bottom: 1em;
   border-bottom: 1px solid black;
+  // position: fixed;
 }
 .page-header {
   // text-align: center;
@@ -11,4 +12,17 @@
     text-decoration: none;
     color: black;
   }
+}
+
+.logo {
+  // float: left;
+  height: 3em;
+  width: 4em;
+  margin-left: 2em;
+  vertical-align: middle;
+}
+
+.link-style {
+  float: right;
+  font-size: 1.2em;
 }

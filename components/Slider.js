@@ -6,22 +6,30 @@ const settings = {
   // dots: true,
   // centerMode: true,
   infinite: true,
-  speed: 1000,
+  speed: 1500,
   slidesToShow: 1,
   slidesToScroll: 1,
-  // autoplay: true,
+  autoplay: true,
   arrows: true,
 };
 
 const ImgSlider = () => (
   <div className="slider-container">
     <Slider {...settings}>
-      <div className="slide"><h3>1</h3></div>
-      <div className="slide"><h3>2</h3></div>
-      <div className="slide"><h3>3</h3></div>
-      <div className="slide"><h3>4</h3></div>
-      <div className="slide"><h3>5</h3></div>
-      <div className="slide"><h3>6</h3></div>
+      <div className="slide">
+        <img className="slide-tile" src="../static/gibson.jpg" />
+        <img className="slide-tile" src="../static/killian.jpg" />
+        <img className="slide-tile" src="../static/killian2.jpg" />
+      </div>
+      <div className="slide">
+        <img className="slide-tile2" src="../static/Office1.JPG" />
+        <img className="slide-tile2" src="../static/Office2.JPG" />
+      </div>
+      <div className="slide">
+        <img className="slide-tile2" src="../static/people1.JPG" />
+        <img className="slide-tile2" src="../static/people2.JPG" />
+      </div>
+
     </Slider>
   </div>
 );

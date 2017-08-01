@@ -3,7 +3,10 @@ import React from 'react';
 
 const Footer = () => (
   <div className="footer-container">
-    footer content
+    <Link href="/FAQ">
+      <a className="footer-text" >Web Master</a>
+    </Link>
+    <p className="footer-email">Contact Us at Kvchiro_dc@yahoo.com</p>
   </div>
 );
 

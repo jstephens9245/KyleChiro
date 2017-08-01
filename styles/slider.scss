@@ -1,6 +1,6 @@
 .slider-container {
   margin: 0 auto;
-  width: 100%;
+  width: 80%;
   color: #333;
 }
 .slick-arrow {
@@ -8,6 +8,17 @@
 }
 .slide {
   height: 400px;
+}
+
+.slide-tile {
+  display: inline-block !important;
+  width: 33%;
+  height: 100%;
+}
+.slide-tile2 {
+  display: inline-block !important;
+  width: 50%;
+  height: 100%;
 }
 .slide:nth-of-type(2) {
   background: lightblue;

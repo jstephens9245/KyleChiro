@@ -9,17 +9,20 @@ import Footer from '@components/Footer';
 
 export default () => (
   <div>
-    <div>
-      <Header />
-    </div>
-    <div>
-      <ImgSlider />
-    </div>
-    <div>
-      <HomePageBody />
-    </div>
-    <div>
-      <Footer />
+    <div className="img-container">
+
+      <div>
+        <Header />
+      </div>
+      <div>
+        <ImgSlider />
+      </div>
+      <div>
+        <HomePageBody />
+      </div>
+      <div>
+        <Footer />
+      </div>
     </div>
   </div>
 );
