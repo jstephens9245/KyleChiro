@@ -2,7 +2,7 @@ const plan = require('flightplan');
 
 const appName = 'node-app';
 const username = 'deploy';
-const startFile = 'bin/www';
+const startFile = 'server.js/www';
 
 const tmpDir = `${appName}-${new Date().getTime()}`;
 

@@ -20,9 +20,9 @@ export default () => (
       <div>
         <HomePageBody />
       </div>
-      <div>
-        <Footer />
-      </div>
+    </div>
+    <div>
+      <Footer />
     </div>
   </div>
 );

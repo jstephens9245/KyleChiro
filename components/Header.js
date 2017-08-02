@@ -33,6 +33,10 @@ const Header = () => (
           {/* <a className="link-style" >Home</a> */}
           <img className="logo" src="../static/KVChiroLogo.jpg" />
         </Link>
+        <p className="mission-statement" >
+          "To Educate and Inspire members of our practice an community
+          with concepts of Chiropractic, Health, and Lifetime Family Wellness."
+        </p>
         <Link href="/about">
           <a className="link-style" >About</a>
         </Link>
