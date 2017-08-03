@@ -5,7 +5,7 @@
   margin: auto;
   margin-bottom: 3em;
   margin-top: 2em;
-  height: 20em;
+  // height: 20em;
 }
 
 .homepage {
@@ -22,7 +22,8 @@
   top: 25%;
   font-size: 1.1em;
   // font-weight: bold;
-  transform: translateY(-25%);
+  // transform: translateY(25%);
+  // vertical-align: middle;
 }
 .homepage-img {
   @extend .homepage;
@@ -30,8 +31,12 @@
   width: 42.7%;
   margin-left: 7%;
   height: 300px;
-  vertical-align: top;
+  // vertical-align: top;
 }
+// .homepage-img-final {
+//   @extend .homepage-img;
+//   margin-bottom: 7em;
+// }
 .homepage-img-reverse {
   @extend .homepage;
   border: 1px solid black;

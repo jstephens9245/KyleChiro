@@ -7,7 +7,7 @@ const Footer = () => (
       <Link href="/webmaster">
         <a className="footer-text" >Web Master</a>
       </Link>
-      <p className="footer-email">Contact Us at Kvchiro_dc@yahoo.com</p>
+      <p className="footer-email">Contact Us (269) 353-7440 or Email at kvchiro_dc@yahoo.com</p>
     </div>
   </div>
 );
