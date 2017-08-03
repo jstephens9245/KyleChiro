@@ -23,11 +23,11 @@ const AboutBody = () => (
       </p>
     </div>
     <div className="about-img">
-      <img className="office-img" src="../static/family.jpg" />
+      <img className="office-img" src="../static/family.JPG" />
     </div>
 
     <div className="about-img-reverse">
-      <img className="office-img" src="../static/people1.jpg" />
+      <img className="office-img" src="../static/people1.JPG" />
     </div>
     <div className="about-text">
       <h2 className="about-title" >Benefits of Chiropractic</h2>
@@ -51,7 +51,7 @@ const AboutBody = () => (
       </p>
     </div>
     <div className="about-img">
-      <img className="office-img" src="../static/Office3.jpg" />
+      <img className="office-img" src="../static/Office3.JPG" />
     </div>
 
     <div className="about-img-reverse">
