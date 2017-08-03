@@ -3,6 +3,13 @@ import React from 'react';
 
 const HomeBody = () => (
   <div className="homepage-body-container">
+    <div className="hours">
+      Mon: 9am - 1pm 3pm - 6pm |
+      Tues: 3pm - 6:30pm |
+      Wed: 9am - 1pm 3pm - 6pm |
+      Thur: 9am - 1pm 3pm - 6pm |
+      Fri: Closed
+    </div>
     <div className="homepage-text">
       Our office focuses on the important relationship between the spine and the
       nervous system.  One of the most basic ideas in chiropractic is that dysfunction
@@ -15,14 +22,14 @@ const HomeBody = () => (
       <img className="office-img" src="../static/Building.png" />
     </div>
 
-    <div className="homepage-img-reverse">
-      <img className="office-img" src="../static/scanner3.png" />
+    {/* <div className="homepage-img-reverse">
+      <img className="office-img" src="../static/scanner4.jpg" />
     </div>
     <div className="homepage-text">
       Checking for Vertebral Subluxation our office utilizes a computerized test
       or scan consisting of thermal and surface electromyography (SEMG), X-ray or
       spinographs as well as static and motion palpation of the spine.
-    </div>
+    </div> */}
   </div>
 );
 

@@ -8,7 +8,7 @@ import AboutBody from '@components/AboutBody';
 import Footer from '@components/Footer';
 
 export default () => (
-  <div >
+  <div className="img-container">
     <div>
       <Header />
     </div>
