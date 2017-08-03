@@ -23,7 +23,7 @@ const AboutBody = () => (
       </p>
     </div>
     <div className="about-img">
-      <img className="office-img" src="../static/family.JPG" />
+      <img className="office-img" src="../static/stull-family.JPG" />
     </div>
 
     <div className="about-img-reverse">
