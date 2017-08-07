@@ -6,7 +6,7 @@ const settings = {
   // dots: true,
   // centerMode: true,
   infinite: true,
-  speed: 5000,
+  speed: 4000,
   slidesToShow: 1,
   slidesToScroll: 1,
   autoplay: true,
