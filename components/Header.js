@@ -34,7 +34,7 @@ const Header = () => (
           <img className="logo" src="../static/KVChiroLogo.jpg" />
         </Link>
         <p className="mission-statement" >
-          "To Educate and Inspire members of our practice an community
+          "To Educate and Inspire members of our practice and community
           with concepts of Chiropractic, Health, and Lifetime Family Wellness."
         </p>
         <Link href="/about">
