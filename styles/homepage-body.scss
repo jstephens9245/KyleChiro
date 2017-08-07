@@ -51,10 +51,18 @@
   height: 100%;
 }
 .hours {
-  // width: 80%;
-  // margin: auto;
   padding: 2em 0 2em 0;
   text-align: center;
   border-bottom: 1px solid black;
 
+}
+
+@media screen and (max-width: 727px) {
+    .homepage-text {
+      width: auto;
+    }
+    .homepage-img {
+      width: auto;
+      margin-left: 0%;
+    }
 }

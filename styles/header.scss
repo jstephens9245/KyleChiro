@@ -21,7 +21,6 @@
   // text-align: center;
 }
 .logo {
-  // float: left;
   height: 3em;
   width: 4em;
   margin-left: 2em;
@@ -31,4 +30,27 @@
 .link-style {
   float: right;
   font-size: 1.2em;
+}
+
+@for $i from 1 through 3 {
+  @media screen and (max-width: 1450px - ($i * 35px)) {
+    .mission-statement {
+      margin-left: 7em - ($i * 2em);
+    }
+  }
+}
+
+@media screen and (max-width: 1315px) {
+    .mission-statement {
+      display: none;
+    }
+}
+
+@media screen and (max-width: 368px) {
+    .link-style {
+      font-size: 1em;
+    }
+    .page-header a {
+      padding: 0.5em;
+    }
 }

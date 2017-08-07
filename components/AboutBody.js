@@ -65,13 +65,17 @@ const AboutBody = () => (
           spinographs as well as static and motion palpation of the spine.
         </p>
     </div>
-    <div className="about-img-final">
+    <div className="about-title-container">
       <h3 className="about-title" >Insight Subluxation Station</h3>
-      <img className="office-img" src="../static/scanner4.jpg" />
+      <div className="about-img-final">
+        <img className="office-img" src="../static/scanner4.jpg" />
+      </div>
     </div>
-    <div className="about-img-reverse">
+    <div className="about-title-container">
       <h3 className="about-title" >Before and After</h3>
-      <img className="office-img" src="../static/xray-before:after.jpg" />
+      <div className="about-img-final-reverse">
+        <img className="office-img" src="../static/xray-before:after.jpg" />
+      </div>
     </div>
   </div>
 );

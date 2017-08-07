@@ -2,40 +2,15 @@
   width: 80%;
   margin: auto;
 }
-
-// .about-img {
-//   display: inline-block;
-//   // width: 50%;
-//   height: 25em;
-// }
-// .about-text {
-//   display: inline-block;
-//   // width: 50%;
-// }
-// .about-paragraph {
-//   display: inline-block;
-// }
-
-
-// .about-body-container {
-//   // background: grey;
-//   border-top: 1px solid black;
-//   width: 90%;
-//   margin: auto;
-//   margin-bottom: 3em;
-//   margin-top: 2em;
-//   height: 40em;
-// }
-.about-title {
-  // margin-bottom: 0;
+.about-title-container {
+  display: inline-block;
+  text-align: center;
+  width: 50%;
 }
 .about {
-  // margin-top: 2em;
   display: inline-block;
-  // width: 50%;
   text-align: center;
   vertical-align: middle;
-  // margin-bottom: 4em;
 }
 .about-text {
   @extend .about;
@@ -46,18 +21,14 @@
 }
 .about-img {
   @extend .about;
-  // border: 1px solid black;
-  width: 42.7%;
-  margin-left: 7%;
+  width: 50%;
   height: 20em;
   vertical-align: top;
   margin-bottom: 2em;
 }
 .about-img-reverse {
   @extend .about;
-  // border: 1px solid black;
-  width: 42.7%;
-  margin-right: 7%;
+  width: 50%;
   height: 20em;
   vertical-align: top;
 }
@@ -68,6 +39,48 @@
 }
 
 .about-img-final {
-  @extend .about-img;
-  margin-bottom: 6em;
+  display: inline-block;
+  text-align: center;
+  height: 20em;
+  vertical-align: top;
+  margin-bottom: 2em;
+  width: 100%;
+}
+.about-img-final-reverse {
+  @extend .about-img-final;
+  margin-left: 0%;
+
+  margin-right: 7%;
+
+}
+
+@media screen and (max-width: 1100px) {
+    .about-img {
+      width: 50%;
+      margin: auto;
+    }
+    .about-img-reverse {
+      width: 50%;
+      margin: auto;
+    }
+}
+@media screen and (max-width: 800px) {
+  .about-img {
+    display: block;
+    width: auto;
+    margin: auto;
+    margin-bottom: 1em;
+  }
+  .about-img-reverse {
+    display: block;
+    width: auto;
+    margin: auto;
+    margin-bottom: 1em;
+  }
+  .about-title-container {
+    display: block;
+    width: auto;
+    margin: auto;
+    margin-bottom: 1em;
+  }
 }
